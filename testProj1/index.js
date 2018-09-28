@@ -7,6 +7,9 @@ import { AppRegistry} from 'react-native';
 //import TextBlink from './components/TextBlink';
 
 //import Style from './components/Style';
-import FlexdDimension from './components/FlexdDimension';
+//import FlexdDimension from './components/FlexdDimension';
+//import FlexExample from './components/FlexExample';
+import JustifyContentExample from './components/JustifyContentExample';
 
-AppRegistry.registerComponent('testProj1',() => FlexdDimension);
+AppRegistry.registerComponent('testProj1',() => JustifyContentExample);
+

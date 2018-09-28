@@ -5,8 +5,10 @@ export default class FlexdDimension extends Component{
     render(){
         return(
          <View style={{flex: 1}} >
+            <View style={{flex:20,backgroundColor:'mediumaquamarine'}}/>
+            <View style={{flex:30,backgroundColor:'#1e90ff'}}/>
             <View style={{flex:50,backgroundColor:'mediumaquamarine'}}/>
-            <View style={{flex:50,backgroundColor:'#1e90ff'}}/>
+            
          </View>
         );
 
